@@ -43,7 +43,7 @@ Pengguna diminta untuk pilih nama yang akan diubah nilainya. Setelah nama ditemu
 4. Mengakhiri Program (Keluar)
 Jika pengguna memilih 5, program akan masuk ke proses pengecekan "apakah data selesai?". Jika pengguna memilih "ya", program menampilkan pesan penutup dan alur berakhir pada simbol END. Jika pengguna memilih "tidak", artinya pengguna ingin membatalkan keluar dan melanjutkan operasi, sehingga alur kembali diarahkan untuk Kembali ke Menu Utama.
 
-### Penjelasan Pemograman (praktikum7.py)
+### Penjelasan Pemograman (tugaspraktikum7.py)
 - Konsep OOP yang Digunakan
 
     1. Class dan Instance Class: Program ini menggunakan Class DaftarNilai , yang berfungsi sebagai blueprint (cetak biru) untuk membuat objek (instance class)  manajemen data. Di program utama, nilai_mahasiswa = DaftarNilai() adalah proses pembuatan instance class.
@@ -52,7 +52,6 @@ Jika pengguna memilih 5, program akan masuk ke proses pengecekan "apakah data se
         - Atribut (Deklarasi Variabel): Class DaftarNilai memiliki atribut publik self.data_nilai yang diinisialisasi di dalam constructor __init__. Atribut ini adalah list yang digunakan untuk menyimpan data mahasiswa.
 
         - Method (Fungsi): Class ini memiliki method publik tambah(), tampilkan(), hapus(nama), dan ubah(nama) , yang merupakan behavior (perilaku)  dari objek. Method ini dapat diakses di luar class, contohnya nilai_mahasiswa.tambah().
-
 
 - Struktur Data
 Data mahasiswa disimpan dalam format List of Dictionaries (self.data_nilai). Setiap elemen dalam list adalah sebuah dictionary yang merepresentasikan satu mahasiswa dengan key nama dan nilai.
@@ -69,4 +68,9 @@ Data mahasiswa disimpan dalam format List of Dictionaries (self.data_nilai). Set
 
     - ubah(nama): Mencari data berdasarkan nama (tidak case-sensitive) dan meminta input nilai baru untuk diperbarui.
 
-## output
+### 🎯 Hasil Akhir
+<img width="493" height="375" alt="output 7 1" src="https://github.com/user-attachments/assets/eaadca28-8867-44d9-b271-bc769b1e174a" />
+<img width="313" height="208" alt="output 7 2" src="https://github.com/user-attachments/assets/15dcf881-ab38-4d3d-a643-446e6b814f53" />
+<img width="352" height="359" alt="output 7 3" src="https://github.com/user-attachments/assets/3127e0d5-3e75-4f27-9b92-e31786ff80f6" />
+<img width="387" height="369" alt="output 7 4" src="https://github.com/user-attachments/assets/93501333-fd17-419b-be69-5e0d6a32d5d2" />
+<img width="277" height="136" alt="output 7 5" src="https://github.com/user-attachments/assets/792882b2-aa44-454e-b2a0-05a10980716e" />
