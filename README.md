@@ -8,5 +8,6 @@
 
 <h2><i class="bi bi-terminal"></i> Tugas Praktikum </h2>
 <p>
-## Tujuan Pemrograman
 Tujuan dari program ini adalah mengaplikasikan konsep Object-Oriented Programming (OOP) dalam Python, khususnya konsep Class dan Instance Class, untuk membuat sistem manajemen data nilai mahasiswa sederhana yang meliputi fungsi CRUD (Create, Read, Update, Delete).
+
+</p>
